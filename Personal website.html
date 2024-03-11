@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Personal website
+    </title>
+    <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .box{
+      height: 2px;
+      background-color: rgb(255, 255, 255);
+      width: 1000px;
+      display: inline-block;
+      margin-top: 50%;
+      padding-top: 10%;
+      margin-bottom: -10xp;
+      border-radius: 10px;
+      align-items: center;
+
+      
+    }
+    .all-grid:hover{
+      cursor: pointer;
+      transform: scale(1.15);
+      font-weight: bold;
+
+    }
+    .wears:hover{
+      transform: translateX(22px);
+    }
+    .all-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 4px;
+      width: 2px;
+      margin-top: 0;
+      
+    }
+    .wears{
+      width: 5px;
+      display: inline;
+      height: 10px;
+      padding-right: 20px;
+      margin-top: 150px;
+    }
+    .short{
+      width: 250px;
+      display: inline;
+      margin-top: 100px;
+      padding-right: 20px;
+    }
+    .main{
+      width: 100%;
+      background: linear-gradient( rgba(0,0,0,0.5)50%,  rgba(0,0,0,0.5)50%), url(intro-to-html/WhatsApp\ Image\ 2024-02-10\ at\ 12.05.10_e440397e.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 120vh;
+    }
+    .navbar{
+      width: 1200px;
+      height: 75px;
+      margin: auto;
+    }
+    .icon{
+      width: 200px;
+      float: left;
+      height: 70px;
+
+    }
+    .logo{
+      color: #ff7200;
+      font-size: 35px;
+      font-family: arial;
+      padding-left: 20px;
+      float: left;
+      padding-top: 10px;
+    }
+    .menu{
+      width: 400px;
+      float: left;
+      height: 70px;
+
+    }
+    ul{
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    ul li{
+      list-style: none;
+      margin-left: 62px;
+      margin-top: 27px;
+      font-size: 14px;
+
+    }
+    ul li a{
+      text-decoration: none;
+      color: #fff;
+      font-family: arial;
+      font-weight: bold;
+      transition: 0.4s ease-in-out;
+    }
+    ul li a:hover{
+      color: #ff7200;
+
+    }
+    .search{
+      width: 50px;
+      padding-left: 700px;
+      margin-left: 270px;
+      /* display: inline-block; */
+      margin-top: 5px;
+      height: 30px;
+      font-family: Arial;
+      font-style: italic;
+      float: left;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div class="icon">
+          <h2 class="logo">PraRoz</h2>
+          <div class="menu">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">SERVICE</a></li>
+              <li><a href="#">DESIGN</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+
+          </div>
+          <div class="search">
+            <input class="top" type="search" placeholder="Search here">
+          </div>
+          <div class="box">
+              <p></p>
+          </div>
+          
+          <div class="all-grid">
+            <div class="pic-grid">
+              <div class="wears">
+                <img class="short" src="intro-to-html/WhatsApp Image 2024-02-10 at 12.05.08_1e3f348a.jpg">
+              </div>
+            </div>
+            <div  class="pic-grid">
+              <div class="wears">
+                <img class="short" src="intro-to-html/WhatsApp Image 2024-02-10 at 12.05.10_e440397e.jpg">
+              </div>
+            </div>
+            <div class="pic-grid">
+              <div class="wears">
+                <img class="short" src="intro-to-html/WhatsApp Image 2024-02-10 at 12.05.11_04c5f847.jpg">
+              </div>
+            </div>
+            <div class="pic-grid">
+              <div class="wears">
+                <img class="short" src="intro-to-html/WhatsApp Image 2024-02-10 at 12.05.11_04c5f847.jpg">
+              </div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
